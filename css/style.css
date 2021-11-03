@@ -1,0 +1,225 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+@import url("https://fonts.googleapis.com/css?family=Roboto: regular,italic,500,500italic,700,700italic,900,900italic&display=swap");
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: roboto;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding-top: 100px;
+}
+/* ------------------------------ */
+
+.nemo {
+	width: 100%;
+	background: url(../img/Blob.svg) 740px -70px / 638px 429px no-repeat #29c3be;
+	margin-bottom: 150px;
+}
+.nemo_content {
+	position: relative;
+	width: 1020px;
+	margin: 0 auto;
+}
+.nemo_content img {
+	position: absolute;
+	right: 0;
+	top: -80px;
+}
+.subtitle {
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 31px;
+}
+.subtitle::before {
+	content: "";
+	display: inline-flex;
+	align-items: flex-end;
+	width: 17px;
+	height: 17px;
+	background: url("../img/OverlineMark.svg") 0 0 no-repeat;
+	margin-right: 16px;
+}
+.nemo_body {
+	padding-top: 111px;
+}
+.title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #fff;
+	width: 411px;
+	margin-bottom: 79px;
+}
+.card {
+	display: flex;
+	margin: 0px -12px 134px;
+	flex-wrap: wrap;
+	row-gap: 24px;
+}
+.card_items {
+	display: flex;
+	width: 25%;
+	padding: 0px 12px;
+}
+.card_items img {
+	position: relative;
+	top: 0px;
+	margin-right: 12px;
+}
+.card_body {
+	display: flex;
+	flex-direction: column;
+}
+.card_title {
+	color: #fff;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 42px;
+	margin-bottom: 3px;
+}
+.card_text {
+	color: #5d62b5;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	font-weight: 700;
+}
+.nemo_footer {
+	position: relative;
+	top: 70px;
+	display: flex;
+	width: 100%;
+	background: #5d62b5;
+	border-radius: 20px;
+}
+.nemo_footer h3 {
+	font-weight: 900;
+	color: #fff;
+	font-size: 24px;
+	line-height: 30px;
+	width: 562px;
+	padding: 43px 102px 46px 70px;
+	margin-right: 102px;
+}
+.nemo_footer a {
+	width: 210px;
+	background: #f2726f;
+	border-radius: 8px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	padding: 9px 0px 9px 0px;
+	align-self: center;
+}
+.sed_content {
+	width: 1020px;
+	margin: 0 auto;
+}
+.sed_title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5d62b5;
+	display: flex;
+	align-items: center;
+	margin-bottom: 33px;
+}
+.sed_title::before {
+	content: "";
+	display: inline-flex;
+	align-items: center;
+	width: 17px;
+	height: 17px;
+	background: url("../img/OverlineMark2.svg") 0 0 / 17px 17px no-repeat;
+	margin-right: 16px;
+}
+.sed_subtitle {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000;
+	margin-bottom: 68px;
+}
+.sed_body {
+	display: flex;
+	margin-bottom: 100px;
+	margin: 0px -12px;
+}
+.body_items {
+	width: 33.333%;
+	padding: 0px 12px;
+	display: flex;
+}
+.body_content {
+	display: flex;
+	flex-direction: column;
+}
+.body_title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #f2726f;
+	margin-bottom: 20px;
+}
+.body_text {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+.body_items img {
+	margin-right: 23px;
+	display: flex;
+	align-self: start;
+}
